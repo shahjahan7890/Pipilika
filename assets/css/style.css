@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+.container{
+	background-image: url('../img/sundarban_long.jpg');
+	background-size: 100% auto;
+	background-position: 100% 100%;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	opacity: .6;
+}
+.pipilika{
+	width: 830px;
+	position: absolute;
+	top: 270px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.pipilika img{
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+.pipilika .serarh-box{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.pipilika .serarh-box input{
+	width: 94%;
+	height: 45px;
+	padding: 0px 16px;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #dedede;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	color: #434A54;
+	border-radius: 6px 0 0 6px;
+	box-sizing: border-box;
+	float: left;
+	font-size: 18px;
+}
+.pipilika .serarh-box button{
+	width: 6%;
+	border: 1px solid #8CC152;
+	background-color: #8CC152;
+	height: 45px;
+	padding: 0px 16px;
+	box-sizing: border-box;
+	float: left;
+	color: #fff;
+	border-radius: 0px 6px 6px 0px;
+	cursor: pointer;
+}
+.pipilika .serarh-box button i{
+	font-size: 18px;
+}
+.pipilika .serarh-box button:hover {
+	background-color: #A0D468;
+	border: 1px solid #A0D468;
+}
+.pipilika .icons ul{
+	text-align: center;
+}
+.pipilika .icons ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+.pipilika .icons ul li a img{
+	width: 60px;
+	height: 60px;
+	transition: .2s;
+}
+.pipilika .icons ul li a img:hover{
+	transform: scale(1.3);
+}
